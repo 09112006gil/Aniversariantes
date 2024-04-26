@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversariantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tablink" onclick="openTab('tab1')">Seu Aniversário</button>
+        <button class="tablink" onclick="openTab('tab2')">Aniversário do Colega 1</button>
+        <button class="tablink" onclick="openTab('tab3')">Aniversário do Colega 2</button>
+    </div>
+
+    <div id="tab1" class="tabcontent">
+        <h3>Tempo até seu próximo aniversário:</h3>
+        <p id="seuAniversario"></p>
+    </div>
+
+    <div id="tab2" class="tabcontent">
+        <h3>Tempo até o aniversário do Colega 1:</h3>
+        <p id="aniversarioColega1"></p>
+    </div>
+
+    <div id="tab3" class="tabcontent">
+        <h3>Tempo até o aniversário do Colega 2:</h3>
+        <p id="aniversarioColega2"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
